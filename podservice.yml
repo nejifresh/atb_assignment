@@ -11,6 +11,6 @@ spec:
     - port: 80
       targetPort: 80
   selector:
-    name: neji_atb_deployment
+    name: neji-atb-deployment
     app: neji-atb-hello-world
 

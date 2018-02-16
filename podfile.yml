@@ -3,7 +3,7 @@ kind: Pod
 metadata:
     name: neji_atb_deployment
     labels:
-        name: neji_atb_deployment
+        name: neji-atb-deployment
         app: neji-atb-hello-world
 spec:
   containers:
