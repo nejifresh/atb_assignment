@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  - name: neji_atb_deployment
+    name: neji_atb_deployment
     labels:
       - name: neji_atb_deployment
         app: neji-atb-hello-world
