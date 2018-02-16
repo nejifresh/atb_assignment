@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: Deployment-Service
+  name: deployment-service
   labels:
-    - name: Deployment-Service
+    - name: deployment-service
       app: neji-atb-hello-world
 spec:
   type: LoadBalancer

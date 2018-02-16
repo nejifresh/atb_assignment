@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-    name: neji_atb_deployment
+    name: neji-atb-deployment
     labels:
         name: neji-atb-deployment
         app: neji-atb-hello-world
 spec:
   containers:
-    - name: atb_assignment
+    - name: atb-assignment
       image: nejifresh/neji_atb
       ports:
         - containerPort: 80
